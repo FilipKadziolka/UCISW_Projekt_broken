@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/projekty_ucisw/projekt_ucisw_v1/projekt_ucisw_v1/glowny_schemat_reflekt.xst" -ofn "/home/ise/projekty_ucisw/projekt_ucisw_v1/projekt_ucisw_v1/glowny_schemat_reflekt.syr" 
+xst -intstyle ise -ifn "/home/ise/projekty_ucisw/projekt_ucisw_v1/projekt_ucisw_v1/glowny_schemat_reflekt.xst" -ofn "/home/ise/projekty_ucisw/projekt_ucisw_v1/projekt_ucisw_v1/glowny_schemat_reflekt.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx4-csg225-3 glowny_schemat_reflekt.ngc glowny_schemat_reflekt.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o glowny_schemat_reflekt_map.ncd glowny_schemat_reflekt.ngd glowny_schemat_reflekt.pcf 
+par -w -intstyle ise -ol high -mt off glowny_schemat_reflekt_map.ncd glowny_schemat_reflekt.ncd glowny_schemat_reflekt.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml glowny_schemat_reflekt.twx glowny_schemat_reflekt.ncd -o glowny_schemat_reflekt.twr glowny_schemat_reflekt.pcf 

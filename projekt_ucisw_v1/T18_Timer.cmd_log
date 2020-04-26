@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/projekty_ucisw/projekt_ucisw_v1/projekt_ucisw_v1/T18_Timer.xst" -ofn "/home/ise/projekty_ucisw/projekt_ucisw_v1/projekt_ucisw_v1/T18_Timer.syr" 
+xst -intstyle ise -ifn "/home/ise/projekty_ucisw/projekt_ucisw_v1/projekt_ucisw_v1/T18_Timer.xst" -ofn "/home/ise/projekty_ucisw/projekt_ucisw_v1/projekt_ucisw_v1/T18_Timer.syr" 
+xst -intstyle ise -ifn "/home/ise/projekty_ucisw/projekt_ucisw_v1/projekt_ucisw_v1/T18_Timer.xst" -ofn "/home/ise/projekty_ucisw/projekt_ucisw_v1/projekt_ucisw_v1/T18_Timer.syr" 
